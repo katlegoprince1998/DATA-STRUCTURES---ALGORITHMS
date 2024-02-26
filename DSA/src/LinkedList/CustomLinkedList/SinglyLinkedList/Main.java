@@ -1,4 +1,6 @@
-package LinkedList.CustomLinkedList;
+package LinkedList.CustomLinkedList.SinglyLinkedList;
+
+import LinkedList.CustomLinkedList.SinglyLinkedList.CustomLL;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,6 +21,8 @@ public class Main {
         System.out.println("The last value removed is " + list.removeLast());
         list.display();
         System.out.println("The  value removed is " + list.removeAt(4));
+        list.display();
+        System.out.println("we found " + list.find(150));
         list.display();
 
     }

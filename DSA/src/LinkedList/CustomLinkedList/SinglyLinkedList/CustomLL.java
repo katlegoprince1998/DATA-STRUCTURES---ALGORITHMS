@@ -1,4 +1,4 @@
-package LinkedList.CustomLinkedList;
+package LinkedList.CustomLinkedList.SinglyLinkedList;
 
 public class CustomLL{
     /**
@@ -88,6 +88,16 @@ public class CustomLL{
         size--;
         return val;
 
+    }
+    public  Node find(int value){
+        Node node = head;
+        while (node != null){
+            if (node.value == value){
+                return node;
+            }
+            node = node.next;
+        }
+        return null;
     }
 
 
