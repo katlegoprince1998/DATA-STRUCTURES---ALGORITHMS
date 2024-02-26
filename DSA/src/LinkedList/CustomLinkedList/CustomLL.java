@@ -22,6 +22,7 @@ public class CustomLL{
         if (tail == null){ // check if the tail is null
             tail = head; //if it is, set tail to point to the head
         }
+        size++;
     }
 
     public void addLast(int val){
@@ -51,8 +52,7 @@ public class CustomLL{
 
     }
     public int removeFirst(){
-        int val = head.val;;
-        head = head.next;
+        int val = head.value;
         head = head.next;
         if(head == null){
             tail = null;
@@ -62,42 +62,69 @@ public class CustomLL{
     }
 
     public int removeLast(){
-        int val = tail.val;
-        Node temp = tail;
-        for (int i = 0; i < size - 1; i++){
-          temp = temp.next;
+        if (size <= 1){
+            return removeFirst();
         }
-        tail = temp;
-        tail.val = temp.val;
+        Node secondLast = get(size - 2);
+        int val = tail.value;
+        tail = secondLast;
+        tail.next = null;
+        size--;
         return val;
+
+    }
+
+    public int removeAt(int index){
+        if (index <= 1){
+            return removeFirst();
+        }
+        if (index == size -1){
+            return removeLast();
+        }
+
+        Node prev = get(index - 1);
+        int val = prev.next.value;
+        prev.next = prev.next.next;
+        size--;
+        return val;
+
+    }
+
+
+    private Node get(int index){
+        Node node = head;
+        for (int m = 0; m < index; m++){
+            node = node.next;
+        }
+        return node;
     }
     public int getCurrent(){
-        return head.val;
+        return head.value;
     }
     public int getNextValue(){
         head = head.next;
-        return head.val;
+        return head.value;
     }
 
 
     public void display(){
         Node temp = head;
         while (temp != null){
-            System.out.print(temp.val + " -> ");
+            System.out.print(temp.value + " -> ");
             temp = temp.next;
         }
         System.out.println("END");
     }
 
     private class Node{
-      private int val;
+      private int value;
       private Node next;
 
-      public Node(int val){
-          this.val = val;
+      public Node(int value){
+          this.value = value;
       }
-      public Node(int val, Node next){
-          this.val =val;
+      public Node(int value, Node next){
+          this.value =value;
           this.next = next;
       }
     }
