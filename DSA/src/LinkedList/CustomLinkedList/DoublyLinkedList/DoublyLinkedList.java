@@ -1,5 +1,7 @@
 package LinkedList.CustomLinkedList.DoublyLinkedList;
 
+import java.sql.SQLOutput;
+
 public class DoublyLinkedList {
     private Node head;
     private Node tail;
@@ -22,12 +24,24 @@ public class DoublyLinkedList {
 
     public void display(){
         Node temp = head;
+        Node last = null;
         while (temp != null){
             System.out.print(temp.value + " -> ");
+            last = temp;
             temp = temp.next;
         }
-        System.out.println("" + "END");
+        System.out.println(" " + "END");
+        System.out.println(" ");
+        System.out.println("Printing in reverse");
+
+        while (last != null){
+            System.out.print(last.value + " -> ");
+            last = last.prev;
+        }
+        System.out.println("START");
     }
+
+
     private class Node{
         private final int value;
         private Node next;

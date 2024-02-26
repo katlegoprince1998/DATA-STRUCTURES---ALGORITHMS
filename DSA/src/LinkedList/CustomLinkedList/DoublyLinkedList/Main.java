@@ -10,5 +10,6 @@ public class Main {
         list.insertFirst(100);
         list.display();
 
+
     }
 }
