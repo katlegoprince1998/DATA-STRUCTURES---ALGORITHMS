@@ -20,8 +20,22 @@ public class DoublyLinkedList {
             head.prev = node;
         }
         head = node;
+        size++;
     }
+     public void insertLast(int val){
+        Node node = new Node(val);
 
+        Node last = head;
+
+        for (int i = 0; i< size - 1; i++){
+            last = last.next;
+        }
+
+        last.next = node;
+        node.prev = last;
+        node.next = null;
+        size++;
+     }
     public void display(){
         Node temp = head;
         Node last = null;
