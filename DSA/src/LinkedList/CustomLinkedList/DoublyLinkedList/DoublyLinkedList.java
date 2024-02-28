@@ -1,7 +1,5 @@
 package LinkedList.CustomLinkedList.DoublyLinkedList;
 
-import java.sql.SQLOutput;
-
 public class DoublyLinkedList {
     private Node head;
     private Node tail;
@@ -18,6 +16,7 @@ public class DoublyLinkedList {
         node.next = head;
         if (head != null){
             head.prev = node;
+            tail = node;
         }
         head = node;
         size++;
@@ -34,8 +33,22 @@ public class DoublyLinkedList {
         last.next = node;
         node.prev = last;
         node.next = null;
+        tail = node;
         size++;
      }
+
+     public int removeFirst(){
+        int val = head.value;
+        head = head.next;
+        head.next.prev = null;
+        size--;
+        return val;
+
+     }
+     public int getHeadValue(){
+        return head.value;
+     }
+
     public void display(){
         Node temp = head;
         Node last = null;

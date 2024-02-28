@@ -11,6 +11,10 @@ public class Main {
         list.display();
         list.insertLast(500);
         list.display();
+        System.out.println("The removed value is " + list.removeFirst());
+        System.out.println("The head value is " + list.getHeadValue());
+        list.display();
+
 
 
     }
