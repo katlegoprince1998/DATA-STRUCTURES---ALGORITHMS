@@ -15,7 +15,5 @@ public class Main {
         System.out.println("The head value is " + list.getHeadValue());
         list.display();
 
-
-
     }
 }
