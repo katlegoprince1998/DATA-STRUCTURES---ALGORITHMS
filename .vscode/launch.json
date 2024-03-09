@@ -1,0 +1,154 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "InBuiltDeque",
+            "request": "launch",
+            "mainClass": "Deque.InBuiltDeque",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "LinkedList.CustomLinkedList.CircllelyLinkedList.Main",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "LinkedList.CustomLinkedList.DoublyLinkedList.Main",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "LinkedList.CustomLinkedList.SinglyLinkedList.Main",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        },
+        {
+            "type": "java",
+            "name": "InBuiltStacks",
+            "request": "launch",
+            "mainClass": "MyStacks.InBuiltStacks",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        },
+        {
+            "type": "java",
+            "name": "binarySearch",
+            "request": "launch",
+            "mainClass": "binarySearch.binarySearch",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        },
+        {
+            "type": "java",
+            "name": "FindMaxIn2DArray",
+            "request": "launch",
+            "mainClass": "linearSearch.FindMaxIn2DArray",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        },
+        {
+            "type": "java",
+            "name": "FindMinIn2dArray",
+            "request": "launch",
+            "mainClass": "linearSearch.FindMinIn2dArray",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        },
+        {
+            "type": "java",
+            "name": "FindTheMaxNumber",
+            "request": "launch",
+            "mainClass": "linearSearch.FindTheMaxNumber",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        },
+        {
+            "type": "java",
+            "name": "FindTheMinNumber",
+            "request": "launch",
+            "mainClass": "linearSearch.FindTheMinNumber",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch",
+            "request": "launch",
+            "mainClass": "linearSearch.LinearSearch",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        },
+        {
+            "type": "java",
+            "name": "SearchCharInString",
+            "request": "launch",
+            "mainClass": "linearSearch.SearchCharInString",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        },
+        {
+            "type": "java",
+            "name": "SearchIn2DArray",
+            "request": "launch",
+            "mainClass": "linearSearch.SearchIn2DArray",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        },
+        {
+            "type": "java",
+            "name": "SearchInARange",
+            "request": "launch",
+            "mainClass": "linearSearch.SearchInARange",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        },
+        {
+            "type": "java",
+            "name": "InBuiltQueus",
+            "request": "launch",
+            "mainClass": "myQueues.InBuiltQueus",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        },
+        {
+            "type": "java",
+            "name": "Main(3)",
+            "request": "launch",
+            "mainClass": "myQueues.Main",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        },
+        {
+            "type": "java",
+            "name": "InBuiltQueue",
+            "request": "launch",
+            "mainClass": "queue.InBuiltQueue",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "recursion.Fibonacci",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        },
+        {
+            "type": "java",
+            "name": "RecursionPractice",
+            "request": "launch",
+            "mainClass": "recursion.RecursionPractice",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        },
+        {
+            "type": "java",
+            "name": "RecursionWithNumbers",
+            "request": "launch",
+            "mainClass": "recursion.RecursionWithNumbers",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        }
+    ]
+}
