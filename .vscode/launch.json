@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Floor",
+            "request": "launch",
+            "mainClass": "celling.Floor",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        },
+        {
+            "type": "java",
+            "name": "Celling",
+            "request": "launch",
+            "mainClass": "celling.Celling",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        },
+        {
+            "type": "java",
+            "name": "Loops",
+            "request": "launch",
+            "mainClass": "loops.Loops",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        },
+        {
+            "type": "java",
+            "name": "IFStatement",
+            "request": "launch",
+            "mainClass": "conditional.IFStatement",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        },
+        {
+            "type": "java",
+            "name": "IFStatement",
+            "request": "launch",
+            "mainClass": "IFStatement",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
