@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindFirstOccuranceAnaLastOccurance",
+            "request": "launch",
+            "mainClass": "binarySearch.FindFirstOccuranceAnaLastOccurance",
+            "projectName": "DATA-STRUCTURES---ALGORITHMS_78914ff6"
+        },
+        {
+            "type": "java",
             "name": "Floor",
             "request": "launch",
             "mainClass": "celling.Floor",
