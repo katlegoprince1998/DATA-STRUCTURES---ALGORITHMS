@@ -1,16 +1,15 @@
 package recursion;
 
-public class RecursionWithNumbers {
+public class Recursion1 {
     public static void main(String[] args) {
         print(1);
     }
     private static void print(int n){
-        if(n == 10){
-            System.out.println(n);
+        System.out.println("The number is " + n);
+        if (n == 10){
+            System.out.println("THE END");
             return;
         }
-        System.out.println(n);
         print(n + 1);
     }
-    
 }

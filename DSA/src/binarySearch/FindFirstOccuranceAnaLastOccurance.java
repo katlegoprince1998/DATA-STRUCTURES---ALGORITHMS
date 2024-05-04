@@ -2,7 +2,7 @@ package binarySearch;
 
 import java.util.Arrays;
 
-public class FindFirstOccuranceAnaLastOccurance {
+public class  FindFirstOccuranceAnaLastOccurance {
     public static void main(String[] args) {
         int target = 8;
         int[] arr = {1,5,6,8,8,6,4,7,5};
